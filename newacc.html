@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      form{border:4px solid #f1f1f1;}
+      input[type=text],input[type=password]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 6px o;
+        box-sizing: border-box;
+      }
+      .button{
+        width: 100%;
+        background-color: green;
+        color: white;
+        padding: 14px 20px;
+        margin: 6px 0;
+        cursor: pointer;
+      }
+      .container {
+        padding: 16px;
+      }
+      .imgcontainer {
+        margin: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imgcontainer">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.pbX9fMDan_Wf74ug8K3tBAHaHa&pid=Api&P=0&h=180" alt="Avatar" class="avatar" width=100px height=100px>
+    </div>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="fname"><b>First Name</b></label>
+      <input type="text" placeholder="Enter First Name" name="fname" required>
+      <label for="lname"><b>Last Name</b></label>
+      <input type="text" placeholder="Enter Last Name" name="lname" required>
+      <label for="gender"><b>Gender</b></label><br>
+      <input type="radio" name="gender" id="M" required>Male
+      <input type="radio" name="gender" id="F" required>Female
+      <input type="radio" name="gender" id="NULL" required>Prefer not to say<br>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <input class="button" type="submit" value="Create Accoount">
+      <label>
+      </label>
+    </div>
+    <div class="container" style="margin-top:-30px">
+      <p>Already have a account?</p>
+      <a href="index.html" style="color:black">Login</a>
+    </div>
+    </div>
+  </body>
+</html>
